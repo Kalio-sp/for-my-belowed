@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="60" height="60">
+  <defs>
+    <linearGradient id="smileGreen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4ade80;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#22c55e;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Лицо -->
+  <circle cx="50" cy="50" r="40" fill="url(#smileGreen)" stroke="#5eead4" stroke-width="2"/>
+  <!-- Глаза -->
+  <circle cx="35" cy="42" r="5" fill="#1e3a2e"/>
+  <circle cx="65" cy="42" r="5" fill="#1e3a2e"/>
+  <!-- Улыбка -->
+  <path d="M 30 55 Q 50 70 70 55" fill="none" stroke="#1e3a2e" stroke-width="4" stroke-linecap="round"/>
+  <!-- Блик -->
+  <circle cx="38" cy="35" r="6" fill="#86efac" opacity="0.6"/>
+</svg>

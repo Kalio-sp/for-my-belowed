@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="60" height="60">
+  <defs>
+    <linearGradient id="houseGreen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4ade80;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#22c55e;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Основа домика -->
+  <rect x="25" y="50" width="50" height="35" fill="url(#houseGreen)" stroke="#5eead4" stroke-width="2" rx="2"/>
+  
+  <!-- Крыша -->
+  <path d="M 20 50 L 50 25 L 80 50 Z" fill="#22c55e" stroke="#5eead4" stroke-width="2"/>
+  
+  <!-- Дверь -->
+  <rect x="42" y="65" width="16" height="20" fill="#1e3a2e" rx="2"/>
+  <circle cx="54" cy="75" r="1.5" fill="#fbbf24"/>
+  
+  <!-- Окно -->
+  <rect x="55" y="57" width="12" height="10" fill="#5eead4" opacity="0.7" rx="1"/>
+  <line x1="61" y1="57" x2="61" y2="67" stroke="#22c55e" stroke-width="1"/>
+  <line x1="55" y1="62" x2="67" y2="62" stroke="#22c55e" stroke-width="1"/>
+  
+  <!-- Труба -->
+  <rect x="60" y="30" width="6" height="12" fill="#22c55e"/>
+  
+  <!-- Дым -->
+  <circle cx="63" cy="25" r="2" fill="#86efac" opacity="0.6"/>
+  <circle cx="65" cy="20" r="2.5" fill="#86efac" opacity="0.5"/>
+  <circle cx="61" cy="18" r="2" fill="#86efac" opacity="0.4"/>
+</svg>

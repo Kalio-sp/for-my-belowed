@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>For My Lada</title>
+    <link rel="icon" type="image/svg+xml" href="./img/heart.svg" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./fonts/fonts.css" />
+  </head>
+  <body class="main-wrapper">
+    <div id="top"></div>
+    <iframe
+      id="background-layer"
+      src="background.html"
+      frameborder="0"
+    ></iframe>
+    <div class="background-container" id="bg"></div>
+    <div class="content-layer">
+      <header class="header">
+        <h1>Самой красивой и лучшей девушке в моей жизни</h1>
+        <h3>Пусть мои слова дойдут до твоего сердца</h3>
+        <button type="button" id="loveBtn" class="main-btn">
+          Нажми и все поймешь
+        </button>
+        <div id="loveOverlay" class="love-overlay">
+          <div class="love-text-wrapper">
+            <div id="loveText"></div>
+          </div>
+        </div>
+      </header>
+      <main>
+        <section class="about-you">
+          <h2>Почему ты особенная...</h2>
+          <div class="card-wrapper">
+            <div class="card-item">
+              <p>Твоя улыбка может скраить любой хмурый день</p>
+              <img class="green-heart" src="./img/green-heart.svg" alt="" />
+            </div>
+            <div class="card-item">
+              <p>Вместе с тобой я чувствую себя лучше</p>
+              <img class="smile" src="./img/smile.svg" alt="" />
+            </div>
+            <div class="card-item">
+              <p>я считаю тебя особенной и очень красивой</p>
+              <img class="flower" src="./img/flower.svg" alt="" />
+            </div>
+            <div class="card-item">
+              <p>Когда я ви жу тебя то на душе сразу становиться тепло</p>
+              <img class="house" src="./img/house.svg" alt="" />
+            </div>
+          </div>
+        </section>
+        <section class="my-love">
+          <div class="love-heart-section">
+            <div class="glow-heart">
+              <span class="heart-text">Иисус дал мне эту любовь к тебе</span>
+            </div>
+          </div>
+        </section>
+        <section class="chose-block">
+          <h2>Лада, я люблю тебя</h2>
+          <p>и хочу быть с тобой до конца</p>
+          <div class="buttons">
+            <button id="yesBtn" class="btn-yes">Согласна</button>
+            <button id="noBtn" class="btn-no">Не согласна</button>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <h2>Спасибо за все💚</h2>
+        <a href="#top"
+          ><button class="footer_button" type="button">
+            Вернуться наверх
+          </button></a
+        >
+      </footer>
+    </div>
+    <div id="popup" class="popup hidden"></div>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
