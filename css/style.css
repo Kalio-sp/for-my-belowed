@@ -361,26 +361,15 @@ body {
   display: flex;
   gap: 30px;
   align-items: center;
-  background: rgba(10, 15, 35, 0.9);
+  background: rgba(10, 25, 15, 0.9);
   padding: 40px 50px;
   border-radius: 20px;
   max-width: 900px;
   position: relative;
   box-shadow:
-    0 0 25px rgba(70, 120, 255, 0.4),
-    0 0 60px rgba(70, 120, 255, 0.2);
-  border: 2px solid rgba(100, 150, 255, 0.5);
-}
-
-.insta-card::before {
-  content: "";
-  position: absolute;
-  inset: -3px;
-  border-radius: 22px;
-  background: linear-gradient(120deg, #4f7cff, #7b5cff, #4f7cff);
-  filter: blur(12px);
-  z-index: -1;
-  opacity: 0.7;
+    0 0 25px rgba(70, 255, 120, 0.4),
+    0 0 60px rgba(70, 255, 120, 0.2);
+  border: 2px solid rgba(100, 255, 150, 0.5);
 }
 
 .insta-card img {
@@ -388,7 +377,7 @@ body {
   height: 360px;
   object-fit: cover;
   border-radius: 16px;
-  box-shadow: 0 0 25px rgba(80, 120, 255, 0.5);
+  box-shadow: 0 0 25px rgba(80, 255, 120, 0.5);
   flex-shrink: 0;
 }
 
@@ -402,28 +391,23 @@ body {
   color: #ffffff;
   font-size: 26px;
   margin: 0;
-  text-shadow: 0 0 15px rgba(120, 160, 255, 0.8);
 }
 
 .insta-card p {
-  color: #d0d8ff;
+  color: #d0ffd8;
   font-size: 17px;
   line-height: 1.6;
   margin: 0;
-  text-shadow: 0 0 10px rgba(100, 140, 255, 0.4);
 }
 
 .insta-btn {
   display: inline-block;
   padding: 12px 30px;
   border-radius: 14px;
-  background: linear-gradient(45deg, #4f7cff, #7b5cff);
+  background: linear-gradient(45deg, #008900, #008000);
   color: white;
   font-size: 16px;
   text-decoration: none;
-  box-shadow:
-    0 0 15px rgba(100, 140, 255, 0.8),
-    0 0 40px rgba(100, 140, 255, 0.5);
   transition: 0.3s;
   align-self: flex-start;
 }
@@ -431,8 +415,8 @@ body {
 .insta-btn:hover {
   transform: scale(1.05);
   box-shadow:
-    0 0 25px rgba(130, 170, 255, 1),
-    0 0 60px rgba(130, 170, 255, 0.8);
+    0 0 25px rgba(130, 255, 170, 1),
+    0 0 60px rgba(130, 255, 170, 0.8);
 }
 
 /*футер*/
